@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Repostería</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f4f1;
+            color: #2f2a27;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 850px;
+            background: white;
+            padding: 50px 40px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 36px;
+        }
+
+        .descripcion {
+            margin: 0 auto 35px;
+            max-width: 650px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #625b56;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 15px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            background: #2f2a27;
+            color: white;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .boton:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .nota {
+            margin-top: 35px;
+            font-size: 14px;
+            color: #817973;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>Proyecto de Repostería</h1>
+
+        <p class="descripcion">
+            Accede a los resultados generados por el código del proyecto.
+        </p>
+
+        <div class="botones">
+            <a class="boton" href="tabla_postres.html">
+                Ver tablas
+            </a>
+
+            <a class="boton" href="graficos_postres.html">
+                Ver gráficos
+            </a>
+        </div>
+
+        <p class="nota">
+            Los archivos se encuentran dentro de este mismo repositorio.
+        </p>
+    </main>
+</body>
+</html>
